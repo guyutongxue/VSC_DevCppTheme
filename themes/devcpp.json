@@ -211,16 +211,16 @@
 				"fontStyle": "bold"
 			}
 		},
-		{
-			"name": "char*_t type",
-			"scope": [
-				"support.type.posix-reserved"
-			],
-			"settings": {
-				"foreground": "#000000",
-				"fontStyle": "bold"
-			}
-		},
+		// {
+		// 	"name": "_t type",
+		// 	"scope": [
+		// 		"support.type.posix-reserved"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#000000",
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
 		{
 			"scope": [
 				"string",
