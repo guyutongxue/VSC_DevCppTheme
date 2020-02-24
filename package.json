@@ -1,0 +1,23 @@
+{
+    "name": "devcpp-theme",
+    "displayName": "Dev-Cpp Theme",
+    "description": "The default theme of Dev-Cpp",
+    "version": "0.1.1",
+    "publisher": "Guyutongxue",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dev-C++",
+                "uiTheme": "vs",
+                "path": "./themes/devcpp.json"
+            }
+        ]
+    },
+    "dependencies": {}
+}
