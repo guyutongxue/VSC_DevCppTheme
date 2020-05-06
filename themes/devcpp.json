@@ -25,6 +25,14 @@
                 "fontStyle": "italic"
             }
         },
+        {
+            "name": "Doxygen in Comments",
+            "scope": "storage.type.class.doxygen",
+            "settings": {
+                "foreground": "#0078d7",
+                "fontStyle": "italic underline"
+            }
+        },
 
         //////////////////////
         // Numeric literals //
@@ -69,7 +77,8 @@
                 "punctuation.definition.dictionary",
                 "punctuation.definition.array",
                 "storage.modifier.pointer",
-                "storage.modifier.reference"
+                "storage.modifier.reference",
+                "entity.name.operator"
             ],
             "settings": {
                 "foreground": "#FF0000",
@@ -78,7 +87,10 @@
         },
         {
             "name": "Punctuations as operator",
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator",
+                "keyword.operator.delete.array.bracket"
+            ],
             "settings": {
                 "foreground": "#FF0000",
                 "fontStyle": "bold"
@@ -105,7 +117,8 @@
                 "storage.type.enum",
                 "storage.type.union",
                 "storage.type.asm",
-                "storage.type.template"
+                "storage.type.template",
+                "storage.type.modifier"
             ],
             "settings": {
                 "foreground": "#000000",

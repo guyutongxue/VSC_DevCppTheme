@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.1.2 | 2020.05.06
+## 0.1.3; 0.1.2 | 2020.05.06
 
 - Fix string literals
 - Re-organized file
