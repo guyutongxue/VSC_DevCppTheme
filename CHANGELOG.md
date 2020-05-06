@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.1.2 | 2020.05.06
+
+- Fix string literals
+- Re-organized file
+
 ## 0.1.1 | 2020.02.24
 
 - Fix suffixes, operators and constants
