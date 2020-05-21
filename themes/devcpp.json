@@ -27,17 +27,18 @@
         },
         {
             "name": "Doxygen in Comments",
-            "scope": "storage.type.class.doxygen",
+            "scope": [
+                "storage.type.class.doxygen",
+                "storage.type.class.gtkdoc"
+            ],
             "settings": {
                 "foreground": "#0078d7",
                 "fontStyle": "italic underline"
             }
         },
-
         //////////////////////
         // Numeric literals //
         //////////////////////
-
         {
             "scope": [
                 "constant.numeric",
@@ -58,11 +59,9 @@
                 "fontStyle": ""
             }
         },
-
         //////////////////
         // Punctuations //
         //////////////////
-
         {
             "name": "Punctuations",
             "scope": [
@@ -96,11 +95,9 @@
                 "fontStyle": "bold"
             }
         },
-
         //////////////
         // Keywords //
         //////////////
-
         {
             "scope": "constant.language",
             "settings": {
@@ -118,7 +115,8 @@
                 "storage.type.union",
                 "storage.type.asm",
                 "storage.type.template",
-                "storage.type.modifier"
+                "storage.type.modifier",
+                "storage.type.extern"
             ],
             "settings": {
                 "foreground": "#000000",
@@ -181,11 +179,16 @@
                 "fontStyle": "bold"
             }
         },
-
+        {
+            "scope": "entity.name.operator.type",
+            "settings": {
+                "foreground": "#000000",
+                "fontStyle": "bold"
+            }
+        },
         ////////////////////
         // String literal //
         ////////////////////
-
         {
             "scope": [
                 "string.quoted.double",
@@ -198,11 +201,9 @@
                 "fontStyle": "bold"
             }
         },
-
         //////////////////
         // Preprocessor //
         //////////////////
-
         {
             "scope": [
                 "meta.preprocessor",
@@ -227,17 +228,28 @@
             }
         },
         {
-            "scope": "meta.preprocessor.numeric",
+            "scope": [
+                "meta.preprocessor.numeric",
+                "entity.other.attribute-name.pragma.preprocessor",
+                // "punctuation.definition.parameters.begin.preprocessor",
+                // "punctuation.definition.parameters.end.preprocessor"
+            ],
             "settings": {
                 "foreground": "#008000",
                 "fontStyle": ""
             }
         },
-
+        {
+            "name": "Line continuation escape char",
+            "scope": "constant.character.escape.line-continuation",
+            "settings": {
+                "foreground": "#008000",
+                "fontStyle": ""
+            }
+        },
         //////////////////////////////////
         // Other language compatibility // (From light+ theme)
         //////////////////////////////////
-
         {
             "scope": [
                 "punctuation.section.embedded.begin.php",
@@ -277,7 +289,8 @@
                 "foreground": "#000000",
                 "fontStyle": "bold"
             }
-        },{
+        },
+        {
             "scope": [
                 "meta.embedded",
                 "source.groovy.embedded"

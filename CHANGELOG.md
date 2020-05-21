@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.1.4 | 2020.05.21
+
+- Fix cast operator overload
+- Fix pragma attributes
+- Fix extern declarations
+
 ## 0.1.3; 0.1.2 | 2020.05.06
 
 - Fix string literals
