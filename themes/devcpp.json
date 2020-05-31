@@ -220,7 +220,7 @@
             "scope": [
                 "meta.preprocessor.string",
                 //"string.quoted.other.lt-gt.include",
-                //"string.quoted.double.include"
+                "string.quoted.double.include"
             ],
             "settings": {
                 "foreground": "#008000",

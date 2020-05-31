@@ -1,8 +1,8 @@
 {
     "name": "devcpp-theme",
-    "displayName": "Dev-Cpp Theme",
+    "displayName": "Dev-C++ Theme",
     "description": "The default theme of Dev-Cpp",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "Guyutongxue",
     "engines": {
         "vscode": "^1.5.0"

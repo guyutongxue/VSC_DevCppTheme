@@ -4,6 +4,15 @@
 
 ![snapshot](https://s1.ax1x.com/2020/05/21/YHxrAe.png)
 
+## Issues won't be fixed now
+
+- C++20 keywords are not highlighted, like `concept`, `requires`, `consteval`, etc.
+- Tokens `...` are not highlighted correctly.
+- Keywords `char16_t`, `char32_t` are not highlighted.
+- Expression `sizeof a` cannot be highlighted correctly.
+- The highlighting in preprocessor direcives is a mess.
+- The return type of Lambda Expressions are not highlighted.
+
 ## Install
 
 Just click [Here](https://marketplace.visualstudio.com/items?itemName=Guyutongxue.devcpp-theme) to install through VS Marketplace.
