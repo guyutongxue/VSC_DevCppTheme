@@ -6,7 +6,7 @@
 
 ## Issues won't be fixed now
 
-- C++20 keywords are not highlighted, like `concept`, `requires`, `consteval`, etc.
+- C++20 keywords are not highlighted, like `constinit`, `consteval`, etc.
 - Tokens `...` are not highlighted correctly.
 - Keywords `char16_t`, `char32_t` are not highlighted.
 - Expression `sizeof a` cannot be highlighted correctly.
